@@ -1,9 +1,9 @@
 Game Content Management System (CMS)
 
-This project is a **Game Content Management System** that enables users to manage characters and other content-related data for a game. It is built with a React frontend and a .NET Core backend (Web API), connected via a SQL Server database.
+This project is a **Game Content Management System** that enables users to manage characters data for a game. It is built with a React frontend and a .NET Core backend (Web API), connected via a SQL Server database.
 
 ### High Level Architecture
-	•	Frontend: React (No external UI library used)
+	•	Frontend: React 
 	•	Backend: ASP.NET Core Web API with Entity Framework Core
 	•	Database: SQL Server
 	•	Communication: JSON over HTTP (RESTful APIs)
@@ -47,3 +47,8 @@ This project is a **Game Content Management System** that enables users to manag
 	•	Deletes a character.
 
 Note: Authentication and role-based authorization are not yet enforced.
+
+### Demo of UI
+	•	https://drive.google.com/file/d/1M3wIK_k8fWTwDtpVACFSicjPTojlhEv-/view?usp=share_link
+
+
