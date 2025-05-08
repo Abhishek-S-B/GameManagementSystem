@@ -1,0 +1,111 @@
+.characters-container {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.search-container {
+  margin-bottom: 30px;
+}
+
+.search-box {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 8px 12px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.search-box input {
+  flex: 1;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  padding: 8px;
+}
+
+.search-icon {
+  margin-right: 8px;
+  color: #666;
+}
+
+.page-title {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.characters-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px 0;
+}
+
+.character-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.character-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.character-homeimage {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.character-content {
+  padding: 15px;
+}
+
+.character-content h3 {
+  margin: 0 0 10px 0;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.rarity-badge {
+  display: inline-block;
+  padding: 3px 8px;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.rarity-badge.common {
+  background-color: #e0e0e0;
+  color: #333;
+}
+
+.rarity-badge.rare {
+  background-color: #1976d2;
+  color: white;
+}
+
+.rarity-badge.epic {
+  background-color: #9c27b0;
+  color: white;
+}
+
+.description {
+  color: #666;
+  margin: 10px 0;
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+
+.stars {
+  color: gold;
+  font-size: 1.2rem;
+  margin-top: 10px;
+}

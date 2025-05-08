@@ -1,0 +1,9 @@
+node_modules/
+bin/
+obj/
+.vscode/
+.env
+.DS_Store
+dist/
+*.log
+appsettings.Development.json
